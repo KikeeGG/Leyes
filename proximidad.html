@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ley de la Proximidad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,50 +16,88 @@
     <a href="parkinson.html">Ley de Parkinson</a>
 </nav>
 
-<main>
-    <h1>Ley de la Proximidad</h1>
+<main class="container">
+    <div class="text-center mb-5">
+        <h1 class="display-4">Ley de la Proximidad</h1>
+        <p>Una de las leyes de la Gestalt aplicada al diseño web</p>
+    </div>
+    <section class="mb-5">
+        <p>La ley de Proximidad de la Gestalt hace referencia a que las
+            personas tienden a agrupar los objetos que están cerca o
+            próximos entre sí. Si esto lo llevamos a la experiencia de
+            usuario se traduce en que para diferenciar distintos
+            elementos, debemos recurrir a los espacios en blanco, las
+            negritas o distintos elementos que hagan que una serie de
+            elementos se agrupen.
+        </p>
+        <p>Los resultados se diferencian muy claramente con unos
+            títulos grandes y en negrita:<b>Los mejores valorados</b> o <b>Inspirado en tus compras</b>.
+            Por otro lado, en la columna izquierda encontramos los
+            filtros. En este caso, la manera de agruparlos es mediante
+            separadores y pequeños títulos en negrita.
+        </p>
 
-<p>
-    La Ley de la Proximidad es una de las leyes de la Gestalt.
-    Indica que los elementos que están cerca unos de otros
-    tienden a percibirse como relacionados.
-</p>
+    </section>
+    <div class="text-center">
+        <img src="img/Screenshot_3.png"alt="Ejemplo de proximidad"class="img-fluid">
+    </div>
+    <section>
+        <h2>Aplicación en una página web</h2>
+        <p>
+            En una interfaz podemos utilizar esta ley para agrupar
+            elementos que pertenecen a una misma categoría.
+        </p>
+    </section>
+    <div class="row">
+        <div class="col-12 col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Datos personales</h3>
+                    <div>
+                        <label class="form-label">Nombre:</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div>
+                        <label class="form-label">Apellidos:</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Datos de contacto</h3>
+                    <div>
+                        <label class="form-label">Email:</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div>
+                        <label class="form-label">Teléfono:</label>
+                        <input type="tel" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <h2>
+            ¿Dónde se aplica en esta página?
+        </h2>
+        <p>Los campos de nombre y apellidos están juntos porque
+            pertenecen a los datos personales. Los campos de email
+            y teléfono están juntos porque pertenecen a los datos
+            de contacto.
+        </p>
+        <div>
+            <b>Ejemplo:</b>
+            Los espacios y la separación entre los bloques permiten
+            identificar rápidamente qué elementos pertenecen a cada
+            grupo.
 
-<h2>Aplicación en una página web</h2>
+        </div>
+    </section>
 
-<p>
-    En una interfaz podemos utilizar esta ley para agrupar
-    elementos que pertenecen a una misma categoría.
-</p>
-
-<div class="ejemplo">
-    <h3>Datos personales</h3>
-
-    <label>Nombre:</label>
-    <input type="text">
-
-    <label>Apellidos:</label>
-    <input type="text">
-</div>
-
-<div class="ejemplo">
-    <h3>Datos de contacto</h3>
-
-    <label>Email:</label>
-    <input type="email">
-
-    <label>Teléfono:</label>
-    <input type="tel">
-</div>
-
-<h2>¿Dónde se aplica en esta página?</h2>
-
-<p>
-    Los campos de nombre y apellidos están juntos porque
-    pertenecen a los datos personales. Los campos de email
-    y teléfono están juntos porque pertenecen a los datos
-    de contacto.
-</p>
 </main>
 
 <footer>
