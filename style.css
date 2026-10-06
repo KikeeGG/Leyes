@@ -1,0 +1,74 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: #f2f2f2;
+color: #222;
+}
+
+nav {
+background-color: #333;
+padding: 15px;
+text-align: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+main {
+max-width: 900px;
+margin: 30px auto;
+padding: 20px;
+background-color: white;
+}
+
+h1 {
+color: #333;
+}
+
+h2 {
+margin-top: 30px;
+}
+
+.ejemplo {
+background-color: #eeeeee;
+padding: 15px;
+margin: 20px 0;
+}
+
+.ejemplo label {
+display: block;
+margin-top: 10px;
+}
+
+.ejemplo input {
+width: 100%;
+padding: 8px;
+box-sizing: border-box;
+}
+
+footer {
+text-align: center;
+margin-top: 30px;
+padding: 15px;
+color: #666;
+}
+
+/* Adaptación sencilla para móviles */
+@media (max-width: 600px) {
+nav a {
+display: block;
+margin: 8px;
+}
+
+main {
+    margin: 15px;
+}
+
+}
