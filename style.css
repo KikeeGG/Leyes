@@ -60,12 +60,57 @@ padding: 15px;
 color: #666;
 }
 
+/* PARTE DE LA PAGINA PARKINSON*/
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 0;
+    padding: 25px;
+    background-color: #eeeeee;
+}
+
+.autor img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.autor-texto {
+    flex: 1;
+}
+
+.autor-texto h2 {
+    margin-top: 0;
+}
+
+.lista-parkinson {
+    background-color: #eeeeee;
+    padding: 20px 40px;
+    margin: 20px 0;
+}
+.lista-parkinson li {
+    margin: 10px 0;
+}
+
+.grafico {
+    display: block;
+    margin: 20px auto;
+}
+
 /* Adaptación sencilla para móviles */
 @media (max-width: 600px) {
 nav a {
 display: block;
 margin: 8px;
 }
+
+.autor {
+        flex-direction: column;
+    }
+.autor img {
+        width: 250px;
+    }
 
 main {
     margin: 15px;
